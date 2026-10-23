@@ -1,5 +1,5 @@
 // Offline cache: app files are stored on install; fonts are cached the first time they load.
-const CACHE = 'workout-player-v1';
+const CACHE = 'workout-player-v2';
 const APP = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
